@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terapi Section - Welcome</title>
+    <link href="./_css/styles.css" rel="stylesheet">
+</head>
+<body>
+    <div class="geometric-bg"></div>
+    <!-- Header -->
+    <header>
+        <nav>
+            <a href="index.html" class="logo">
+                <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="20" cy="20" r="18" fill="none" stroke="#2D5A87" stroke-width="2"/>
+                    <circle cx="20" cy="20" r="14" fill="none" stroke="#4A7C8A" stroke-width="1.5" opacity="0.7"/>
+                    <circle cx="20" cy="20" r="10" fill="none" stroke="#6B9B7A" stroke-width="1" opacity="0.5"/>
+                    <circle cx="20" cy="20" r="6" fill="none" stroke="#F1E5AC" stroke-width="0.5" opacity="0.3"/>
+                    <circle cx="20" cy="20" r="3" fill="#2D5A87"/>
+                </svg>
+                <span class="logo-text">Terapi Section</span>
+            </a>
+            <div class="menu-toggle" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="nav-link active">Home</a></li>
+                <li><a href="servicos.html" class="nav-link">Services</a></li>
+                <li><a href="sobre.html" class="nav-link">About</a></li>
+                <li><a href="contactos.html" class="nav-link">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="network-bg">
+            <svg width="100%" height="100%" viewBox="0 0 800 300" style="position:absolute;top:0;left:0;z-index:1;">
+                <circle cx="100" cy="80" r="4" fill="#4A7C8A"/>
+                <circle cx="200" cy="120" r="3" fill="#6B9B7A"/>
+                <circle cx="300" cy="60" r="5" fill="#2D5A87"/>
+                <circle cx="400" cy="150" r="4" fill="#F1E5AC"/>
+                <circle cx="600" cy="100" r="3" fill="#4A7C8A"/>
+                <circle cx="700" cy="200" r="4" fill="#6B9B7A"/>
+                <line x1="100" y1="80" x2="200" y2="120" stroke="#BFD7EA" stroke-width="1"/>
+                <line x1="200" y1="120" x2="300" y2="60" stroke="#BFD7EA" stroke-width="1"/>
+                <line x1="300" y1="60" x2="400" y2="150" stroke="#BFD7EA" stroke-width="1"/>
+                <line x1="400" y1="150" x2="600" y2="100" stroke="#BFD7EA" stroke-width="1"/>
+                <line x1="600" y1="100" x2="700" y2="200" stroke="#BFD7EA" stroke-width="1"/>
+            </svg>
+        </div>
+        <div class="peace-bg">
+            <div style="position:absolute;top:40px;left:60px;z-index:2;">
+                <div style="width:60px;height:60px;border-radius:50%;background:rgba(106,155,122,0.12);animation:breath 6s infinite alternate;"></div>
+            </div>
+            <div style="position:absolute;top:120px;left:180px;z-index:2;">
+                <div style="width:40px;height:40px;border-radius:50%;background:rgba(74,124,138,0.10);animation:breath 7s infinite alternate;"></div>
+            </div>
+            <div style="position:absolute;top:90px;left:320px;z-index:2;">
+                <div style="width:50px;height:50px;border-radius:50%;background:rgba(241,229,172,0.13);animation:breath 5s infinite alternate;"></div>
+            </div>
+        </div>
+        <div class="floating-elements">
+            <div style="position:absolute;top:180px;left:100px;z-index:3;">
+                <div style="width:70px;height:20px;border-radius:50% 50% 60% 60%/60% 60% 50% 50%;background:#BFD7EA;box-shadow:0 2px 8px rgba(45,90,135,0.10);"></div>
+            </div>
+            <div style="position:absolute;top:210px;left:220px;z-index:3;">
+                <div style="width:40px;height:12px;border-radius:50% 50% 60% 60%/60% 60% 50% 50%;background:#6B9B7A;box-shadow:0 2px 8px rgba(45,90,135,0.10);"></div>
+            </div>
+            <div style="position:absolute;top:200px;left:320px;z-index:3;">
+                <div style="width:55px;height:16px;border-radius:50% 50% 60% 60%/60% 60% 50% 50%;background:#F1E5AC;box-shadow:0 2px 8px rgba(45,90,135,0.10);"></div>
+            </div>
+        </div>
+        <div class="mandala-bg">
+            <svg width="120" height="120" viewBox="0 0 120 120" style="position:absolute;top:30px;right:60px;z-index:0;">
+                <circle cx="60" cy="60" r="55" fill="none" stroke="#BFD7EA" stroke-width="2" opacity="0.3"/>
+                <circle cx="60" cy="60" r="40" fill="none" stroke="#4A7C8A" stroke-width="1.5" opacity="0.2"/>
+                <circle cx="60" cy="60" r="25" fill="none" stroke="#6B9B7A" stroke-width="1" opacity="0.15"/>
+                <circle cx="60" cy="60" r="10" fill="none" stroke="#F1E5AC" stroke-width="0.8" opacity="0.12"/>
+            </svg>
+        </div>
+        <div class="hero-content">
+            <h1>Welcome to Terapi Section</h1>
+            <p>We promote mental health, well-being, and quality of life through specialized therapies and human care.</p>
+            <a href="servicos.html" class="cta-button">Discover our services</a>
+        </div>
+    </section>
+
+    <!-- Apresentação -->
+    <section id="about">
+        <h2 class="section-title">Our Institution</h2>
+        <p class="section-subtitle">
+            Terapi Section is dedicated to emotional and psychological care, offering a safe space for your personal development.
+        </p>
+        <div class="about-instituicao-container">
+            <img src="images/unsplash-mountain-top.avif" alt="Terapi Section Institution" class="about-instituicao-img">
+            <div class="about-instituicao-content">
+                <div class="about-floating-cards">
+                    <div class="floating-card">
+                        <h3>Personalized Care</h3>
+                        <p>We listen to and support each person uniquely, respecting their story and needs.</p>
+                    </div>
+                    <div class="floating-card">
+                        <h3>Growth and Well-being</h3>
+                        <p>We focus on emotional development, promoting balance and self-knowledge.</p>
+                    </div>
+                    <div class="floating-card">
+                        <h3>Qualified Professionals</h3>
+                        <p>Multidisciplinary team with experience in various areas of psychology and therapy.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">LinkedIn</a>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Terapi Section. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="./_js/tools.js"></script>
+</body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terapi Section - Contacts</title>
+    <link href="./_css/styles.css" rel="stylesheet">
+</head>
+<body>
+    <div class="geometric-bg"></div>
+    <!-- Header -->
+    <header>
+        <nav>
+            <a href="index.html" class="logo">
+                <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                    <!-- ...logo svg... -->
+                </svg>
+                <span class="logo-text">Terapi Section</span>
+            </a>
+            <div class="menu-toggle" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="servicos.html" class="nav-link">Services</a></li>
+                <li><a href="sobre.html" class="nav-link">About</a></li>
+                <li><a href="contactos.html" class="nav-link active">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contactos -->
+    <section id="contact">
+        <div class="contact-container">
+            <h2 class="section-title">Contact Us</h2>
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h3>Contact Details</h3>
+                    <div class="info-item">
+                        <div class="info-text">
+                            <h4>Phone</h4>
+                            <p>+258 861 144 847</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-text">
+                            <h4>Email</h4>
+                            <p>eliasalbertolaquimane@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-text">
+                            <h4>Address</h4>
+                            <p>Rua do Bem-Estar, nº 123, Nampula, Mozambique</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-side-column">
+                    <img src="images/unsplash-breathing-exercise.avif" alt="Contact us" class="contact-img">
+                    <div class="contact-form">
+                        <h3 class="contact-form-title">Send us a message</h3>
+                        <form>
+                            <div class="form-group">
+                                <label for="nome">Name</label>
+                                <input type="text" id="nome" name="nome" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="mensagem">Message</label>
+                                <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="submit-btn">Send</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">LinkedIn</a>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Terapi Section. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="./_js/tools.js"></script>
+</body>
+</html>
