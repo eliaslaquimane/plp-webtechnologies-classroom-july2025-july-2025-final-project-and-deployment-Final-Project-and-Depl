@@ -25,6 +25,11 @@ A modern, responsive website for Terapi Section, a mental health and therapy ins
 ├── images/              # Project images (AVIF format)
 ```
 
+
+## Live Demo
+
+[View the project online](https://eliaslaquimane.github.io/plp-webtechnologies-classroom-july2025-july-2025-final-project-and-deployment-Final-Project-and-Depl/index.html)
+
 ## How to Use
 
 1. **Clone or Download** this repository.
